@@ -1,0 +1,9 @@
+/// CONNECTING A FOLDER ALREADY EXISTING IN OUR COMPUTER TO OUR GITHUB 
+// in terminal going to the folder we want to push : > 
+    - git init
+    - git add -A (Saves all the changes)
+    - git commit -m "< ADD A MEANINGFUL COMMENT>" 
+    -
+
+
+/// CREATING A FOLDER FROM A REPO ON OUR GITHUB 
