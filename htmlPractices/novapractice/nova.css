@@ -28,13 +28,15 @@ body {
     cursor: pointer;
   }
   h1 {
-    color: #800202;
+    color: #747373;
   }
   /* ___________________________________ POLAROIDS ________________________________ */
   .wrapper {
     width: 100%;
     padding: 0 2rem;
     text-align: center;
+    /* background: #232323; */
+    background-color: rgba(24, 29, 32, 0.4);
   }
   .polaroid {
     background: #fff;
