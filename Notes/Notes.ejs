@@ -1,0 +1,10 @@
+<!--  IN EJS YOU CAN USE ANY PART OF OTHER EJS FILES YOU WANT YOU WILL USE :  -->
+<%- include('< route to the ejs File You want to use > ') %> 
+<!-- YOU CAN USE JS IN EJS !! YOU CAN CREATE HTML ELEMENTS FOR ANY NUMBER OF ARRAY ELEMENTS YOU WANT : SOME EXAMPLES  -->
+<% if (posts.length){ %>
+    <% posts.forEach ( (post,postIdx) => {%>
+        <div> </div>
+    <% }) ;%>  
+<%};%> 
+<!--IF YOU WANT TO LITERALY INCLUDE SOMETHING FROM THE JS ELEMNTS IN THE HTML YOU WILL USE THIS FORMAT ( PAY ATTENTION TO THE = SIGN):-->
+<%= POST.comment.comment%>
